@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#home -->
+<html lang="en" class="csstransforms csstransforms3d csstransitions desktop portrait"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>The One - Private Concierge for Exclusive People</title>
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="author" content="Sprintheme">
+ <meta charset="UTF-8">
+ 
+
+ <link rel="icon" type="image/ico" href="file:///Users/fanyayoung/Desktop/images/favicon.ico">
+ <link href="./theone_files/style.css" rel="stylesheet">
+ <link href="./theone_files/fontello.css" rel="stylesheet">
+ <link href="./theone_files/style-1.css" rel="stylesheet">
+ <link href="./theone_files/color-azure-blue.css" rel="stylesheet">
+ <link href="./theone_files/color-chestnut.css" rel="stylesheet">
+ <link href="./theone_files/color-frog.css" rel="stylesheet">
+ <link href="./theone_files/color-grass.css" rel="stylesheet">
+ <link href="./theone_files/color-pale-brown.css" rel="stylesheet">
+ <link href="./theone_files/color-plum.css" rel="stylesheet">
+ <link href="./theone_files/color-red.css" rel="stylesheet">
+ <link href="./theone_files/color-titian.css" rel="stylesheet">
+ <link href="./theone_files/color-twitter.css" rel="stylesheet">
+ <link href="./theone_files/color-yellow.css" rel="stylesheet">
+ <link href="./theone_files/css_family=Oswald_400,300,700" rel="stylesheet" type="text/css">
+ <link href="./theone_files/css_family=Open+Sans_300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic" rel="stylesheet" type="text/css">
+ <link href="./theone_files/css_family=Open+Sans+Condensed_700,300" rel="stylesheet" type="text/css">
+ <link href="./theone_files/jquery.bxslider.css" rel="stylesheet">
+ <link href="./theone_files/sequencejs.css" rel="stylesheet">
+
+ <!-- Fav and touch icons -->
+ <link rel="shortcut icon" href="file:///Users/fanyayoung/Desktop/images/ico/favicon.ico">
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="file:///Users/fanyayoung/Desktop/images/ico/apple-touch-icon-144-precomposed.png">
+ <link rel="apple-touch-icon-precomposed" sizes="114x114" href="file:///Users/fanyayoung/Desktop/images/ico/apple-touch-icon-114-precomposed.png">
+ <link rel="apple-touch-icon-precomposed" sizes="72x72" href="file:///Users/fanyayoung/Desktop/images/ico/apple-touch-icon-72-precomposed.png">
+ <link rel="apple-touch-icon-precomposed" href="file:///Users/fanyayoung/Desktop/images/ico/apple-touch-icon-57-precomposed.png">
+
+<!-- Just for debugging purposes. Don't actually copy this line! -->
+
+<!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+<!--[if lt IE 9]>
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+    <![endif]-->
+<script src="./theone_files/www-widgetapi-vfldKI4RW.js" async=""></script><script src="./theone_files/www-widgetapi-vfldKI4RW(1).js" async=""></script><script src="./theone_files/www-widgetapi-vfldKI4RW-1.js" async=""></script><script src="./theone_files/www-widgetapi-vfldKI4RW-1-1.js" async=""></script><script src="./theone_files/player_api" id="YTAPI"></script><script src="./theone_files/jquery-1.10.2.min.js"></script>
+<script src="./theone_files/jquery.bxslider.js"></script>
+<script src="./theone_files/bx-responsive.js"></script>
+<script src="./theone_files/jquery.cycle2.js"></script> 
+<script src="./theone_files/jquery.cycle2.carousel.js"></script> 
+<script src="./theone_files/animation.js"></script> 
+<script src="./theone_files/jquery.validate.js"></script>
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+		
+	jQuery("#contact_form").validate({  // initialize the plugin                 
+		debug: true,
+		 submitHandler: function(form) {
+	$.ajax({
+				  type: "POST",
+				  url: "contact.php",
+				  data: {
+					  firstname : $('#inputName').val(),
+					  email : $('#inputEmail').val(),
+					  title : $('#inputTitle').val(), 
+					  message : $('#inputMessage').val() },
+				  success: function(data) {
+					if (data) {
+						//alert(data);
+						$('#email_message').html(data);
+					} else {
+					  alert(data); //testing purposes
+					}
+					form.reset();
+				  }
+			});
+
+  }                            
+    });
+});
+
+</script>
+</head>
+
+<body class="home" data-body-class="titian">
+
+<!-- Start Header section -->
+
+<header class="navbar navbar-default navbar-fixed-top nav-slide" role="navigation" id="navbar-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12"> 
+        
+        <!-- start button for collapsed menu-->
+        
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="file:///Users/fanyayoung/Desktop/index.html" style="top: 0px;">THE<strong>ONE</strong></a> </div>
+        
+        <!-- end button for collapsed menu--> 
+        
+        <!-- start menu-->
+        
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"> <a href="./theone_files/theone.html" class="homelink">Home</a> </li>
+            <li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#about">About</a></li>
+            <li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#team">Team</a></li>
+            <li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#services">Services</a></li>
+            <li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <!-- end menu--> 
+        
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- End Header section --> 
+
+<!--Start Slide Show section-->
+
+<section class="content-section home-slideshow" id="home" style="height: 761px;">  
+  <div id="sequence" style="height: 741px;">
+  	
+		<img class="sequence-prev" src="./theone_files/bt-prev.png" alt="Previous" style="display: inline;">
+		<img class="sequence-next" src="./theone_files/bt-next.png" alt="Next" style="display: inline;">
+        
+		<ul class="sequence-canvas">
+			<li class="slide-frame animate-in" style="opacity: 1; z-index: 3;">
+				<div class="slide-bg slide-bg1" style="margin-left: 0px; height: 761px; width: 1640px;"></div>
+				<div class="slide-title" style=""><p>WE ARE THE ONE</p></div>
+                <div class="slide-text" style=""><p>Custom Experiences tailored for you.<br>The One way to client satisfaction.</p></div>
+                <div class="slide-logo" style=""><img src="./theone_files/the1logowhite.png" alt="Logo"></div>
+			</li><!-- Frame 1 -->
+			<li class="slide-frame animate-out" style="opacity: 1; z-index: 1;">
+				<div class="slide-bg slide-bg2" style="margin-left: 0px; height: 761px; width: 1640px;"></div>
+                <div class="slide-title" style=""><p>NEXT GENERATION</p></div>
+                <div class="slide-text" style=""><p>The One is prepared for tomorrow’s billionaire demands,<br>from Bespoke suits to Private Jets.</p></div>
+                <div class="slide-logo" style=""><img src="./theone_files/the1logowhite.png" alt="Logo"></div>
+			</li> <!-- Frame 2 -->
+			<li class="slide-frame animate-out" style="opacity: 1; z-index: 1;">
+				<div class="slide-bg slide-bg3" style="margin-left: 0px; height: 761px; width: 1640px;"></div>
+				<div class="slide-title" style=""><p>CLIENTS COME FIRST</p></div>
+                <div class="slide-text" style=""><p>Dedicated service and a professional attitude.<br>We create an easy experience for clients.</p></div>
+                <div class="slide-logo" style=""><img src="./theone_files/the1logowhite.png" alt="Logo"></div>
+			</li><!-- Frame 3 -->
+		</ul>
+	</div>
+  <span class="scroll-down"> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#about"><span><i class="icon-down-open-big"></i></span></a> Scroll down to <br>
+  explore more </span> </section>
+
+<!--End Slide Show section--> 
+
+<!--About Page-->
+<section class="content-section about-us" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <article>
+          <header>
+        	<hgroup class="heading1">
+            <h1 class="text-center">About Us</h1>
+            <div class="headingUline"></div>
+            <h3 class="text-center">We Provide Concierge Services <br>
+			For Millonaires and Billonaires.</h3>
+		</hgroup>
+          </header>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="content-section icon-list-with-text">
+  <div class="container">
+    <div class="row">
+      <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center sf-animation about-us-4" data-animation="pop-up" data-delay="200" style="opacity: 1; -webkit-transform: scale(1);">
+       <div class="fade-col">
+       <span class="icons"><i class=" icon-4">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" version="1.1" x="0px" y="0px" viewBox="-0.188 -0.228 36 36" enable-background="new -0.188 -0.228 36 36" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+          <defs> </defs>
+          <path fill="#de4a32" d="M17.813,0C8.012,0,0.04,7.973,0.04,17.772s7.973,17.772,17.773,17.772s17.771-7.973,17.771-17.772  S27.613,0,17.813,0 M17.813,34.298c-9.113,0-16.526-7.414-16.526-16.526S8.7,1.247,17.813,1.247c9.111,0,16.525,7.413,16.525,16.525  S26.923,34.298,17.813,34.298"></path>
+          <polygon fill="#de4a32" points="15.632,21.899 11.089,17.926 10.269,18.864 15.702,23.616 26.986,12.008 26.091,11.138 "></polygon>
+          <path display="none" fill="#de4a32" d="M35.625,7.266h-9.86l1.658-1.658c0.76-0.759,0.302-1.99-0.457-2.748l-2.29-2.291  c-0.759-0.758-1.532-0.758-2.29,0l-4.575,4.573l-4.573-4.573c-0.758-0.758-1.531-0.758-2.289,0L8.658,2.859  C7.9,3.618,7.44,4.848,8.2,5.607l1.659,1.658H0v9.23h1.781v16.272c0,1.602,1.298,2.899,2.899,2.899h26.079  c1.602,0,2.899-1.298,2.899-2.899V16.496h1.966V7.266z M23.53,3.088l1.374,1.374l-2.805,2.803h-2.361  c-0.045-0.082-0.092-0.163-0.144-0.242L23.53,3.088z M10.719,4.462l1.375-1.374l3.935,3.936c-0.052,0.079-0.099,0.16-0.143,0.242  h-2.362L10.719,4.462z M1.295,8.561h14.733v6.64H1.295V8.561z M2.993,32.769V16.496h13.036v17.959H4.681  C3.749,34.455,2.993,33.698,2.993,32.769 M32.445,32.769c0,0.93-0.758,1.687-1.686,1.687H19.583V16.496h12.861V32.769z   M34.329,15.201H19.583v-6.64h14.745V15.201z"></path>
+          <path display="none" fill="#de4a32" d="M34.456,5.976l-4.848-4.848c-0.714-0.713-1.649-1.071-2.585-1.071s-1.871,0.358-2.586,1.071  L1.168,24.397c-1.429,1.429-1.429,3.744,0,5.172l4.847,4.846c0.715,0.714,1.651,1.073,2.587,1.073c0.936,0,1.871-0.359,2.585-1.073  l23.269-23.268C35.884,9.719,35.884,7.404,34.456,5.976 M33.539,10.228L10.268,33.497c-0.446,0.445-1.038,0.69-1.666,0.69  c-0.63,0-1.222-0.245-1.667-0.69l-4.846-4.848c-0.92-0.919-0.92-2.413,0-3.333l1.155-1.156l3.753,3.754l0.92-0.919l-3.753-3.756  l1.355-1.354l1.846,1.847l0.919-0.918l-1.846-1.847l1.681-1.681l1.845,1.846l0.918-0.918l-1.845-1.847l1.356-1.355l3.752,3.754  l0.919-0.919l-3.753-3.753l1.03-1.031l2.17,2.171l0.919-0.919l-2.17-2.171l1.68-1.681l2.171,2.172l0.918-0.919l-2.17-2.172  l1.031-1.03l3.753,3.755l0.918-0.919l-3.752-3.754l1.031-1.03l2.17,2.171l0.918-0.919l-2.169-2.171l1.68-1.681l2.17,2.172  l0.919-0.918l-2.17-2.172l1.03-1.031L27.14,7.77l0.92-0.919l-3.754-3.753l1.05-1.051c0.445-0.445,1.038-0.691,1.667-0.691  s1.22,0.246,1.667,0.691l4.849,4.848c0.442,0.446,0.688,1.037,0.688,1.667C34.226,9.191,33.981,9.782,33.539,10.228"></path>
+          <path display="none" fill="#de4a32" d="M18.917,1.413c0.432,0,0.783,0.352,0.783,0.784v2.452V5.67l0.996,0.236  c1.104,0.263,2.152,0.666,3.108,1.199l0.853,0.475l0.691-0.69l1.665-1.665c0.147-0.147,0.345-0.229,0.553-0.229  c0.211,0,0.408,0.082,0.556,0.229l1.957,1.958c0.306,0.306,0.306,0.803,0,1.106l-1.58,1.58l-0.718,0.72l0.525,0.868  c0.663,1.09,1.146,2.267,1.438,3.498l0.234,0.997H31h2.454c0.432,0,0.782,0.351,0.782,0.782v2.77c0,0.432-0.351,0.783-0.782,0.783  h-2.63h-0.97l-0.273,0.93c-0.34,1.16-0.849,2.258-1.512,3.264l-0.58,0.881l0.746,0.746l1.497,1.494c0.305,0.305,0.304,0.801,0,1.105  l-1.957,1.959c-0.148,0.148-0.346,0.229-0.555,0.229s-0.406-0.08-0.555-0.23L24.89,28.89l-0.663-0.664l-0.836,0.426  c-0.852,0.432-1.76,0.764-2.695,0.984L19.7,29.872v1.023v2.453c0,0.432-0.352,0.783-0.783,0.783h-2.769  c-0.432,0-0.783-0.352-0.783-0.783V30.72v-0.967l-0.927-0.275c-0.997-0.295-1.963-0.725-2.874-1.277l-0.869-0.525l-0.718,0.717  l-1.926,1.928c-0.148,0.148-0.345,0.229-0.553,0.229c-0.209,0-0.406-0.08-0.554-0.229l-1.958-1.957  c-0.304-0.307-0.304-0.803,0-1.109l2.01-2.012l0.691-0.689l-0.475-0.854c-0.433-0.777-0.782-1.613-1.038-2.482L5.9,20.286H4.932  H2.303c-0.432,0-0.784-0.352-0.784-0.783v-2.77c0-0.431,0.352-0.782,0.784-0.782h2.452h1.024l0.235-0.997  C6.234,14.019,6.567,13.112,7,12.259l0.423-0.837l-0.663-0.663L4.639,8.638C4.491,8.489,4.41,8.292,4.41,8.083  c0-0.208,0.081-0.406,0.229-0.554l1.958-1.957c0.148-0.148,0.345-0.229,0.554-0.229c0.209,0,0.406,0.081,0.553,0.229l1.843,1.842  l0.746,0.747l0.881-0.583c1.003-0.661,2.102-1.17,3.261-1.512l0.929-0.272V4.827v-2.63c0-0.432,0.351-0.784,0.783-0.784H18.917   M17.878,26.337c4.721,0,8.563-3.844,8.563-8.565c0-4.722-3.842-8.563-8.563-8.563c-4.721,0-8.563,3.84-8.563,8.563  C9.316,22.493,13.157,26.337,17.878,26.337 M18.917,0.119h-2.769c-1.147,0-2.077,0.93-2.077,2.077v2.63  c-1.294,0.38-2.508,0.946-3.609,1.672L8.62,4.657C8.214,4.251,7.682,4.049,7.151,4.049C6.619,4.048,6.088,4.251,5.682,4.657  L3.724,6.614c-0.811,0.812-0.811,2.127,0,2.938l2.122,2.122c-0.476,0.937-0.843,1.936-1.091,2.983H2.303  c-1.148,0-2.078,0.93-2.078,2.076v2.77c0,1.146,0.93,2.076,2.078,2.076h2.629c0.284,0.965,0.669,1.887,1.149,2.748L4.07,26.339  c-0.81,0.813-0.812,2.125,0,2.938l1.958,1.959c0.405,0.404,0.938,0.607,1.469,0.607c0.531,0,1.062-0.203,1.469-0.607l1.926-1.928  c0.987,0.6,2.048,1.078,3.178,1.412v2.629c0,1.148,0.93,2.078,2.077,2.078h2.769c1.146,0,2.076-0.93,2.076-2.078v-2.453  c1.048-0.248,2.047-0.615,2.984-1.09l1.775,1.773c0.405,0.406,0.938,0.607,1.469,0.607s1.064-0.201,1.469-0.607l1.957-1.957  c0.812-0.811,0.812-2.125,0-2.936l-1.495-1.496c0.727-1.102,1.293-2.314,1.673-3.611h2.63c1.147,0,2.076-0.93,2.076-2.076v-2.77  c0-1.146-0.929-2.076-2.076-2.076H31c-0.326-1.386-0.868-2.686-1.587-3.872l1.58-1.579c0.811-0.812,0.811-2.127,0-2.938  l-1.958-1.957c-0.404-0.406-0.938-0.609-1.47-0.609c-0.529,0-1.062,0.203-1.468,0.609l-1.665,1.664  c-1.064-0.592-2.222-1.037-3.44-1.327V2.196C20.993,1.049,20.063,0.119,18.917,0.119 M17.878,25.04  c-4.008,0-7.269-3.258-7.269-7.268c0-4.008,3.261-7.269,7.269-7.269c4.009,0,7.268,3.261,7.268,7.269  C25.146,21.782,21.887,25.04,17.878,25.04"></path>
+        </svg>
+        </i> </span>
+        <hgroup>
+          <h5>100% Client Focused</h5>
+        </hgroup>
+        <p>We are Elite. We Focus on your satisfication.</p>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center sf-animation about-us-3" data-animation="pop-up" data-delay="400" style="opacity: 1; -webkit-transform: scale(1);"> 
+      <div class="fade-col">
+      <span class="icons"> <i class="icon-3">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" version="1.1" x="0px" y="0px" viewBox="-0.188 -0.228 36 36" enable-background="new -0.188 -0.228 36 36" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+          <defs> </defs>
+          <path display="none" fill="#de4a32" d="M17.813,0C8.012,0,0.04,7.973,0.04,17.772s7.973,17.772,17.773,17.772  s17.771-7.973,17.771-17.772S27.613,0,17.813,0 M17.813,34.298c-9.113,0-16.526-7.414-16.526-16.526S8.7,1.247,17.813,1.247  c9.111,0,16.525,7.413,16.525,16.525S26.923,34.298,17.813,34.298"></path>
+          <polygon display="none" fill="#de4a32" points="15.632,21.899 11.089,17.926 10.269,18.864 15.702,23.616 26.986,12.008   26.091,11.138 "></polygon>
+          <path display="none" fill="#de4a32" d="M35.625,7.266h-9.86l1.658-1.658c0.76-0.759,0.302-1.99-0.457-2.748l-2.29-2.291  c-0.759-0.758-1.532-0.758-2.29,0l-4.575,4.573l-4.573-4.573c-0.758-0.758-1.531-0.758-2.289,0L8.658,2.859  C7.9,3.618,7.44,4.848,8.2,5.607l1.659,1.658H0v9.23h1.781v16.272c0,1.602,1.298,2.899,2.899,2.899h26.079  c1.602,0,2.899-1.298,2.899-2.899V16.496h1.966V7.266z M23.53,3.088l1.374,1.374l-2.805,2.803h-2.361  c-0.045-0.082-0.092-0.163-0.144-0.242L23.53,3.088z M10.719,4.462l1.375-1.374l3.935,3.936c-0.052,0.079-0.099,0.16-0.143,0.242  h-2.362L10.719,4.462z M1.295,8.561h14.733v6.64H1.295V8.561z M2.993,32.769V16.496h13.036v17.959H4.681  C3.749,34.455,2.993,33.698,2.993,32.769 M32.445,32.769c0,0.93-0.758,1.687-1.686,1.687H19.583V16.496h12.861V32.769z   M34.329,15.201H19.583v-6.64h14.745V15.201z"></path>
+          <path fill="#de4a32" d="M34.456,5.976l-4.848-4.848c-0.714-0.713-1.649-1.071-2.585-1.071s-1.871,0.358-2.586,1.071L1.168,24.397  c-1.429,1.429-1.429,3.744,0,5.172l4.847,4.846c0.715,0.714,1.651,1.073,2.587,1.073c0.936,0,1.871-0.359,2.585-1.073l23.269-23.268  C35.884,9.719,35.884,7.404,34.456,5.976 M33.539,10.228L10.268,33.497c-0.446,0.445-1.038,0.69-1.666,0.69  c-0.63,0-1.222-0.245-1.667-0.69l-4.846-4.848c-0.92-0.919-0.92-2.413,0-3.333l1.155-1.156l3.753,3.754l0.92-0.919l-3.753-3.756  l1.355-1.354l1.846,1.847l0.919-0.918l-1.846-1.847l1.681-1.681l1.845,1.846l0.918-0.918l-1.845-1.847l1.356-1.355l3.752,3.754  l0.919-0.919l-3.753-3.753l1.03-1.031l2.17,2.171l0.919-0.919l-2.17-2.171l1.68-1.681l2.171,2.172l0.918-0.919l-2.17-2.172  l1.031-1.03l3.753,3.755l0.918-0.919l-3.752-3.754l1.031-1.03l2.17,2.171l0.918-0.919l-2.169-2.171l1.68-1.681l2.17,2.172  l0.919-0.918l-2.17-2.172l1.03-1.031L27.14,7.77l0.92-0.919l-3.754-3.753l1.05-1.051c0.445-0.445,1.038-0.691,1.667-0.691  s1.22,0.246,1.667,0.691l4.849,4.848c0.442,0.446,0.688,1.037,0.688,1.667C34.226,9.191,33.981,9.782,33.539,10.228"></path>
+          <path display="none" fill="#de4a32" d="M18.917,1.413c0.432,0,0.783,0.352,0.783,0.784v2.452V5.67l0.996,0.236  c1.104,0.263,2.152,0.666,3.108,1.199l0.853,0.475l0.691-0.69l1.665-1.665c0.147-0.147,0.345-0.229,0.553-0.229  c0.211,0,0.408,0.082,0.556,0.229l1.957,1.958c0.306,0.306,0.306,0.803,0,1.106l-1.58,1.58l-0.718,0.72l0.525,0.868  c0.663,1.09,1.146,2.267,1.438,3.498l0.234,0.997H31h2.454c0.432,0,0.782,0.351,0.782,0.782v2.77c0,0.432-0.351,0.783-0.782,0.783  h-2.63h-0.97l-0.273,0.93c-0.34,1.16-0.849,2.258-1.512,3.264l-0.58,0.881l0.746,0.746l1.497,1.494c0.305,0.305,0.304,0.801,0,1.105  l-1.957,1.959c-0.148,0.148-0.346,0.229-0.555,0.229s-0.406-0.08-0.555-0.23L24.89,28.89l-0.663-0.664l-0.836,0.426  c-0.852,0.432-1.76,0.764-2.695,0.984L19.7,29.872v1.023v2.453c0,0.432-0.352,0.783-0.783,0.783h-2.769  c-0.432,0-0.783-0.352-0.783-0.783V30.72v-0.967l-0.927-0.275c-0.997-0.295-1.963-0.725-2.874-1.277l-0.869-0.525l-0.718,0.717  l-1.926,1.928c-0.148,0.148-0.345,0.229-0.553,0.229c-0.209,0-0.406-0.08-0.554-0.229l-1.958-1.957  c-0.304-0.307-0.304-0.803,0-1.109l2.01-2.012l0.691-0.689l-0.475-0.854c-0.433-0.777-0.782-1.613-1.038-2.482L5.9,20.286H4.932  H2.303c-0.432,0-0.784-0.352-0.784-0.783v-2.77c0-0.431,0.352-0.782,0.784-0.782h2.452h1.024l0.235-0.997  C6.234,14.019,6.567,13.112,7,12.259l0.423-0.837l-0.663-0.663L4.639,8.638C4.491,8.489,4.41,8.292,4.41,8.083  c0-0.208,0.081-0.406,0.229-0.554l1.958-1.957c0.148-0.148,0.345-0.229,0.554-0.229c0.209,0,0.406,0.081,0.553,0.229l1.843,1.842  l0.746,0.747l0.881-0.583c1.003-0.661,2.102-1.17,3.261-1.512l0.929-0.272V4.827v-2.63c0-0.432,0.351-0.784,0.783-0.784H18.917   M17.878,26.337c4.721,0,8.563-3.844,8.563-8.565c0-4.722-3.842-8.563-8.563-8.563c-4.721,0-8.563,3.84-8.563,8.563  C9.316,22.493,13.157,26.337,17.878,26.337 M18.917,0.119h-2.769c-1.147,0-2.077,0.93-2.077,2.077v2.63  c-1.294,0.38-2.508,0.946-3.609,1.672L8.62,4.657C8.214,4.251,7.682,4.049,7.151,4.049C6.619,4.048,6.088,4.251,5.682,4.657  L3.724,6.614c-0.811,0.812-0.811,2.127,0,2.938l2.122,2.122c-0.476,0.937-0.843,1.936-1.091,2.983H2.303  c-1.148,0-2.078,0.93-2.078,2.076v2.77c0,1.146,0.93,2.076,2.078,2.076h2.629c0.284,0.965,0.669,1.887,1.149,2.748L4.07,26.339  c-0.81,0.813-0.812,2.125,0,2.938l1.958,1.959c0.405,0.404,0.938,0.607,1.469,0.607c0.531,0,1.062-0.203,1.469-0.607l1.926-1.928  c0.987,0.6,2.048,1.078,3.178,1.412v2.629c0,1.148,0.93,2.078,2.077,2.078h2.769c1.146,0,2.076-0.93,2.076-2.078v-2.453  c1.048-0.248,2.047-0.615,2.984-1.09l1.775,1.773c0.405,0.406,0.938,0.607,1.469,0.607s1.064-0.201,1.469-0.607l1.957-1.957  c0.812-0.811,0.812-2.125,0-2.936l-1.495-1.496c0.727-1.102,1.293-2.314,1.673-3.611h2.63c1.147,0,2.076-0.93,2.076-2.076v-2.77  c0-1.146-0.929-2.076-2.076-2.076H31c-0.326-1.386-0.868-2.686-1.587-3.872l1.58-1.579c0.811-0.812,0.811-2.127,0-2.938  l-1.958-1.957c-0.404-0.406-0.938-0.609-1.47-0.609c-0.529,0-1.062,0.203-1.468,0.609l-1.665,1.664  c-1.064-0.592-2.222-1.037-3.44-1.327V2.196C20.993,1.049,20.063,0.119,18.917,0.119 M17.878,25.04  c-4.008,0-7.269-3.258-7.269-7.268c0-4.008,3.261-7.269,7.269-7.269c4.009,0,7.268,3.261,7.268,7.269  C25.146,21.782,21.887,25.04,17.878,25.04"></path>
+        </svg>
+        </i> </span>
+        <hgroup>
+          <h5>Deeply Experienced</h5>
+        </hgroup>
+        <p>We have expertise in this Industry with varied connections.</p>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center sf-animation about-us-2" data-animation="pop-up" data-delay="600" style="opacity: 1; -webkit-transform: scale(1);"> 
+      <div class="fade-col">
+      <span class="icons"> <i class="icon-2">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" version="1.1" x="0px" y="0px" viewBox="-0.188 -0.228 36 36" enable-background="new -0.188 -0.228 36 36" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+          <defs> </defs>
+          <path display="none" fill="#de4a32" d="M17.813,0C8.012,0,0.04,7.973,0.04,17.772s7.973,17.772,17.773,17.772  s17.771-7.973,17.771-17.772S27.613,0,17.813,0 M17.813,34.298c-9.113,0-16.526-7.414-16.526-16.526S8.7,1.247,17.813,1.247  c9.111,0,16.525,7.413,16.525,16.525S26.923,34.298,17.813,34.298"></path>
+          <polygon display="none" fill="#de4a32" points="15.632,21.899 11.089,17.926 10.269,18.864 15.702,23.616 26.986,12.008   26.091,11.138 "></polygon>
+          <path fill="#de4a32" d="M35.625,7.266h-9.86l1.658-1.658c0.76-0.759,0.302-1.99-0.457-2.748l-2.29-2.291  c-0.759-0.758-1.532-0.758-2.29,0l-4.575,4.573l-4.573-4.573c-0.758-0.758-1.531-0.758-2.289,0L8.658,2.859  C7.9,3.618,7.44,4.848,8.2,5.607l1.659,1.658H0v9.23h1.781v16.272c0,1.602,1.298,2.899,2.899,2.899h26.079  c1.602,0,2.899-1.298,2.899-2.899V16.496h1.966V7.266z M23.53,3.088l1.374,1.374l-2.805,2.803h-2.361  c-0.045-0.082-0.092-0.163-0.144-0.242L23.53,3.088z M10.719,4.462l1.375-1.374l3.935,3.936c-0.052,0.079-0.099,0.16-0.143,0.242  h-2.362L10.719,4.462z M1.295,8.561h14.733v6.64H1.295V8.561z M2.993,32.769V16.496h13.036v17.959H4.681  C3.749,34.455,2.993,33.698,2.993,32.769 M32.445,32.769c0,0.93-0.758,1.687-1.686,1.687H19.583V16.496h12.861V32.769z   M34.329,15.201H19.583v-6.64h14.745V15.201z"></path>
+          <path display="none" fill="#de4a32" d="M34.456,5.976l-4.848-4.848c-0.714-0.713-1.649-1.071-2.585-1.071s-1.871,0.358-2.586,1.071  L1.168,24.397c-1.429,1.429-1.429,3.744,0,5.172l4.847,4.846c0.715,0.714,1.651,1.073,2.587,1.073c0.936,0,1.871-0.359,2.585-1.073  l23.269-23.268C35.884,9.719,35.884,7.404,34.456,5.976 M33.539,10.228L10.268,33.497c-0.446,0.445-1.038,0.69-1.666,0.69  c-0.63,0-1.222-0.245-1.667-0.69l-4.846-4.848c-0.92-0.919-0.92-2.413,0-3.333l1.155-1.156l3.753,3.754l0.92-0.919l-3.753-3.756  l1.355-1.354l1.846,1.847l0.919-0.918l-1.846-1.847l1.681-1.681l1.845,1.846l0.918-0.918l-1.845-1.847l1.356-1.355l3.752,3.754  l0.919-0.919l-3.753-3.753l1.03-1.031l2.17,2.171l0.919-0.919l-2.17-2.171l1.68-1.681l2.171,2.172l0.918-0.919l-2.17-2.172  l1.031-1.03l3.753,3.755l0.918-0.919l-3.752-3.754l1.031-1.03l2.17,2.171l0.918-0.919l-2.169-2.171l1.68-1.681l2.17,2.172  l0.919-0.918l-2.17-2.172l1.03-1.031L27.14,7.77l0.92-0.919l-3.754-3.753l1.05-1.051c0.445-0.445,1.038-0.691,1.667-0.691  s1.22,0.246,1.667,0.691l4.849,4.848c0.442,0.446,0.688,1.037,0.688,1.667C34.226,9.191,33.981,9.782,33.539,10.228"></path>
+          <path display="none" fill="#de4a32" d="M18.917,1.413c0.432,0,0.783,0.352,0.783,0.784v2.452V5.67l0.996,0.236  c1.104,0.263,2.152,0.666,3.108,1.199l0.853,0.475l0.691-0.69l1.665-1.665c0.147-0.147,0.345-0.229,0.553-0.229  c0.211,0,0.408,0.082,0.556,0.229l1.957,1.958c0.306,0.306,0.306,0.803,0,1.106l-1.58,1.58l-0.718,0.72l0.525,0.868  c0.663,1.09,1.146,2.267,1.438,3.498l0.234,0.997H31h2.454c0.432,0,0.782,0.351,0.782,0.782v2.77c0,0.432-0.351,0.783-0.782,0.783  h-2.63h-0.97l-0.273,0.93c-0.34,1.16-0.849,2.258-1.512,3.264l-0.58,0.881l0.746,0.746l1.497,1.494c0.305,0.305,0.304,0.801,0,1.105  l-1.957,1.959c-0.148,0.148-0.346,0.229-0.555,0.229s-0.406-0.08-0.555-0.23L24.89,28.89l-0.663-0.664l-0.836,0.426  c-0.852,0.432-1.76,0.764-2.695,0.984L19.7,29.872v1.023v2.453c0,0.432-0.352,0.783-0.783,0.783h-2.769  c-0.432,0-0.783-0.352-0.783-0.783V30.72v-0.967l-0.927-0.275c-0.997-0.295-1.963-0.725-2.874-1.277l-0.869-0.525l-0.718,0.717  l-1.926,1.928c-0.148,0.148-0.345,0.229-0.553,0.229c-0.209,0-0.406-0.08-0.554-0.229l-1.958-1.957  c-0.304-0.307-0.304-0.803,0-1.109l2.01-2.012l0.691-0.689l-0.475-0.854c-0.433-0.777-0.782-1.613-1.038-2.482L5.9,20.286H4.932  H2.303c-0.432,0-0.784-0.352-0.784-0.783v-2.77c0-0.431,0.352-0.782,0.784-0.782h2.452h1.024l0.235-0.997  C6.234,14.019,6.567,13.112,7,12.259l0.423-0.837l-0.663-0.663L4.639,8.638C4.491,8.489,4.41,8.292,4.41,8.083  c0-0.208,0.081-0.406,0.229-0.554l1.958-1.957c0.148-0.148,0.345-0.229,0.554-0.229c0.209,0,0.406,0.081,0.553,0.229l1.843,1.842  l0.746,0.747l0.881-0.583c1.003-0.661,2.102-1.17,3.261-1.512l0.929-0.272V4.827v-2.63c0-0.432,0.351-0.784,0.783-0.784H18.917   M17.878,26.337c4.721,0,8.563-3.844,8.563-8.565c0-4.722-3.842-8.563-8.563-8.563c-4.721,0-8.563,3.84-8.563,8.563  C9.316,22.493,13.157,26.337,17.878,26.337 M18.917,0.119h-2.769c-1.147,0-2.077,0.93-2.077,2.077v2.63  c-1.294,0.38-2.508,0.946-3.609,1.672L8.62,4.657C8.214,4.251,7.682,4.049,7.151,4.049C6.619,4.048,6.088,4.251,5.682,4.657  L3.724,6.614c-0.811,0.812-0.811,2.127,0,2.938l2.122,2.122c-0.476,0.937-0.843,1.936-1.091,2.983H2.303  c-1.148,0-2.078,0.93-2.078,2.076v2.77c0,1.146,0.93,2.076,2.078,2.076h2.629c0.284,0.965,0.669,1.887,1.149,2.748L4.07,26.339  c-0.81,0.813-0.812,2.125,0,2.938l1.958,1.959c0.405,0.404,0.938,0.607,1.469,0.607c0.531,0,1.062-0.203,1.469-0.607l1.926-1.928  c0.987,0.6,2.048,1.078,3.178,1.412v2.629c0,1.148,0.93,2.078,2.077,2.078h2.769c1.146,0,2.076-0.93,2.076-2.078v-2.453  c1.048-0.248,2.047-0.615,2.984-1.09l1.775,1.773c0.405,0.406,0.938,0.607,1.469,0.607s1.064-0.201,1.469-0.607l1.957-1.957  c0.812-0.811,0.812-2.125,0-2.936l-1.495-1.496c0.727-1.102,1.293-2.314,1.673-3.611h2.63c1.147,0,2.076-0.93,2.076-2.076v-2.77  c0-1.146-0.929-2.076-2.076-2.076H31c-0.326-1.386-0.868-2.686-1.587-3.872l1.58-1.579c0.811-0.812,0.811-2.127,0-2.938  l-1.958-1.957c-0.404-0.406-0.938-0.609-1.47-0.609c-0.529,0-1.062,0.203-1.468,0.609l-1.665,1.664  c-1.064-0.592-2.222-1.037-3.44-1.327V2.196C20.993,1.049,20.063,0.119,18.917,0.119 M17.878,25.04  c-4.008,0-7.269-3.258-7.269-7.268c0-4.008,3.261-7.269,7.269-7.269c4.009,0,7.268,3.261,7.268,7.269  C25.146,21.782,21.887,25.04,17.878,25.04"></path>
+        </svg>
+        </i> </span>
+        <hgroup>
+          <h5>Simple For You</h5>
+        </hgroup>
+        <p>Just Open our Portal. And Let us know what we need.</p>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center sf-animation about-us-1" data-animation="pop-up" data-delay="800" style="opacity: 1; -webkit-transform: scale(1);"> 
+      <div class="fade-col">
+      <span class="icons"> <i class="icon-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" version="1.1" x="0px" y="0px" viewBox="-0.188 -0.228 36 36" enable-background="new -0.188 -0.228 36 36" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+          <defs> </defs>
+          <path display="none" fill="#de4a32" d="M17.813,0C8.012,0,0.04,7.973,0.04,17.772s7.973,17.772,17.773,17.772  s17.771-7.973,17.771-17.772S27.613,0,17.813,0 M17.813,34.298c-9.113,0-16.526-7.414-16.526-16.526S8.7,1.247,17.813,1.247  c9.111,0,16.525,7.413,16.525,16.525S26.923,34.298,17.813,34.298"></path>
+          <polygon display="none" fill="#de4a32" points="15.632,21.899 11.089,17.926 10.269,18.864 15.702,23.616 26.986,12.008   26.091,11.138 "></polygon>
+          <path display="none" fill="#de4a32" d="M35.625,7.266h-9.86l1.658-1.658c0.76-0.759,0.302-1.99-0.457-2.748l-2.29-2.291  c-0.759-0.758-1.532-0.758-2.29,0l-4.575,4.573l-4.573-4.573c-0.758-0.758-1.531-0.758-2.289,0L8.658,2.859  C7.9,3.618,7.44,4.848,8.2,5.607l1.659,1.658H0v9.23h1.781v16.272c0,1.602,1.298,2.899,2.899,2.899h26.079  c1.602,0,2.899-1.298,2.899-2.899V16.496h1.966V7.266z M23.53,3.088l1.374,1.374l-2.805,2.803h-2.361  c-0.045-0.082-0.092-0.163-0.144-0.242L23.53,3.088z M10.719,4.462l1.375-1.374l3.935,3.936c-0.052,0.079-0.099,0.16-0.143,0.242  h-2.362L10.719,4.462z M1.295,8.561h14.733v6.64H1.295V8.561z M2.993,32.769V16.496h13.036v17.959H4.681  C3.749,34.455,2.993,33.698,2.993,32.769 M32.445,32.769c0,0.93-0.758,1.687-1.686,1.687H19.583V16.496h12.861V32.769z   M34.329,15.201H19.583v-6.64h14.745V15.201z"></path>
+          <path display="none" fill="#de4a32" d="M34.456,5.976l-4.848-4.848c-0.714-0.713-1.649-1.071-2.585-1.071s-1.871,0.358-2.586,1.071  L1.168,24.397c-1.429,1.429-1.429,3.744,0,5.172l4.847,4.846c0.715,0.714,1.651,1.073,2.587,1.073c0.936,0,1.871-0.359,2.585-1.073  l23.269-23.268C35.884,9.719,35.884,7.404,34.456,5.976 M33.539,10.228L10.268,33.497c-0.446,0.445-1.038,0.69-1.666,0.69  c-0.63,0-1.222-0.245-1.667-0.69l-4.846-4.848c-0.92-0.919-0.92-2.413,0-3.333l1.155-1.156l3.753,3.754l0.92-0.919l-3.753-3.756  l1.355-1.354l1.846,1.847l0.919-0.918l-1.846-1.847l1.681-1.681l1.845,1.846l0.918-0.918l-1.845-1.847l1.356-1.355l3.752,3.754  l0.919-0.919l-3.753-3.753l1.03-1.031l2.17,2.171l0.919-0.919l-2.17-2.171l1.68-1.681l2.171,2.172l0.918-0.919l-2.17-2.172  l1.031-1.03l3.753,3.755l0.918-0.919l-3.752-3.754l1.031-1.03l2.17,2.171l0.918-0.919l-2.169-2.171l1.68-1.681l2.17,2.172  l0.919-0.918l-2.17-2.172l1.03-1.031L27.14,7.77l0.92-0.919l-3.754-3.753l1.05-1.051c0.445-0.445,1.038-0.691,1.667-0.691  s1.22,0.246,1.667,0.691l4.849,4.848c0.442,0.446,0.688,1.037,0.688,1.667C34.226,9.191,33.981,9.782,33.539,10.228"></path>
+          <path fill="#de4a32" d="M18.917,1.413c0.432,0,0.783,0.352,0.783,0.784v2.452V5.67l0.996,0.236c1.104,0.263,2.152,0.666,3.108,1.199  l0.853,0.475l0.691-0.69l1.665-1.665c0.147-0.147,0.345-0.229,0.553-0.229c0.211,0,0.408,0.082,0.556,0.229l1.957,1.958  c0.306,0.306,0.306,0.803,0,1.106l-1.58,1.58l-0.718,0.72l0.525,0.868c0.663,1.09,1.146,2.267,1.438,3.498l0.234,0.997H31h2.454  c0.432,0,0.782,0.351,0.782,0.782v2.77c0,0.432-0.351,0.783-0.782,0.783h-2.63h-0.97l-0.273,0.93  c-0.34,1.16-0.849,2.258-1.512,3.264l-0.58,0.881l0.746,0.746l1.497,1.494c0.305,0.305,0.304,0.801,0,1.105l-1.957,1.959  c-0.148,0.148-0.346,0.229-0.555,0.229s-0.406-0.08-0.555-0.23L24.89,28.89l-0.663-0.664l-0.836,0.426  c-0.852,0.432-1.76,0.764-2.695,0.984L19.7,29.872v1.023v2.453c0,0.432-0.352,0.783-0.783,0.783h-2.769  c-0.432,0-0.783-0.352-0.783-0.783V30.72v-0.967l-0.927-0.275c-0.997-0.295-1.963-0.725-2.874-1.277l-0.869-0.525l-0.718,0.717  l-1.926,1.928c-0.148,0.148-0.345,0.229-0.553,0.229c-0.209,0-0.406-0.08-0.554-0.229l-1.958-1.957  c-0.304-0.307-0.304-0.803,0-1.109l2.01-2.012l0.691-0.689l-0.475-0.854c-0.433-0.777-0.782-1.613-1.038-2.482L5.9,20.286H4.932  H2.303c-0.432,0-0.784-0.352-0.784-0.783v-2.77c0-0.431,0.352-0.782,0.784-0.782h2.452h1.024l0.235-0.997  C6.234,14.019,6.567,13.112,7,12.259l0.423-0.837l-0.663-0.663L4.639,8.638C4.491,8.489,4.41,8.292,4.41,8.083  c0-0.208,0.081-0.406,0.229-0.554l1.958-1.957c0.148-0.148,0.345-0.229,0.554-0.229c0.209,0,0.406,0.081,0.553,0.229l1.843,1.842  l0.746,0.747l0.881-0.583c1.003-0.661,2.102-1.17,3.261-1.512l0.929-0.272V4.827v-2.63c0-0.432,0.351-0.784,0.783-0.784H18.917   M17.878,26.337c4.721,0,8.563-3.844,8.563-8.565c0-4.722-3.842-8.563-8.563-8.563c-4.721,0-8.563,3.84-8.563,8.563  C9.316,22.493,13.157,26.337,17.878,26.337 M18.917,0.119h-2.769c-1.147,0-2.077,0.93-2.077,2.077v2.63  c-1.294,0.38-2.508,0.946-3.609,1.672L8.62,4.657C8.214,4.251,7.682,4.049,7.151,4.049C6.619,4.048,6.088,4.251,5.682,4.657  L3.724,6.614c-0.811,0.812-0.811,2.127,0,2.938l2.122,2.122c-0.476,0.937-0.843,1.936-1.091,2.983H2.303  c-1.148,0-2.078,0.93-2.078,2.076v2.77c0,1.146,0.93,2.076,2.078,2.076h2.629c0.284,0.965,0.669,1.887,1.149,2.748L4.07,26.339  c-0.81,0.813-0.812,2.125,0,2.938l1.958,1.959c0.405,0.404,0.938,0.607,1.469,0.607c0.531,0,1.062-0.203,1.469-0.607l1.926-1.928  c0.987,0.6,2.048,1.078,3.178,1.412v2.629c0,1.148,0.93,2.078,2.077,2.078h2.769c1.146,0,2.076-0.93,2.076-2.078v-2.453  c1.048-0.248,2.047-0.615,2.984-1.09l1.775,1.773c0.405,0.406,0.938,0.607,1.469,0.607s1.064-0.201,1.469-0.607l1.957-1.957  c0.812-0.811,0.812-2.125,0-2.936l-1.495-1.496c0.727-1.102,1.293-2.314,1.673-3.611h2.63c1.147,0,2.076-0.93,2.076-2.076v-2.77  c0-1.146-0.929-2.076-2.076-2.076H31c-0.326-1.386-0.868-2.686-1.587-3.872l1.58-1.579c0.811-0.812,0.811-2.127,0-2.938  l-1.958-1.957c-0.404-0.406-0.938-0.609-1.47-0.609c-0.529,0-1.062,0.203-1.468,0.609l-1.665,1.664  c-1.064-0.592-2.222-1.037-3.44-1.327V2.196C20.993,1.049,20.063,0.119,18.917,0.119 M17.878,25.04  c-4.008,0-7.269-3.258-7.269-7.268c0-4.008,3.261-7.269,7.269-7.269c4.009,0,7.268,3.261,7.268,7.269  C25.146,21.782,21.887,25.04,17.878,25.04"></path>
+        </svg>
+        </i> </span>
+        <hgroup>
+          <h5>Instantly Accessible</h5>
+        </hgroup>
+        <p>We serve clients worldwide.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<!--End About Page-->
+
+<!--latest project-->
+            <div class="row">
+                <hgroup class="heading1">
+                    <h1>Curated Experiences</h1>
+                    <div class="headingUline"></div>
+                    <h3>Check out our teams latest offerings</h3>
+                </hgroup>
+               
+
+        <div class=" slider-wrap-portfolio" style="display:none"><!--portfolio-wrap-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="slider-slide-nav text-center"><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" class="slider-portfolio-prev"><i class="icon-left-open-big"></i></a><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" class="slider-portfolio-close"><i class="icon-cancel"></i></a><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" class="slider-portfolio-next"><i class="icon-right-open-big"></i></a></div>
+                        <div class="slider-item">
+                            <article class="l-project-item1 slider-hide">
+                                <div class="portfolio-thumb">
+                                    <img src="./theone_files/LP-1.jpg" alt="Web" title="Web">
+                                </div>
+                                <hgroup>
+                                    <h1 class="text-center">We're Here For You...</h1>
+                                </hgroup>
+                                <p>"Whether you want to travel, arrange a special event, or simply relax in style, The One is the only international, luxury concierge service."</p>
+                            </article>
+                            <article class="l-project-item2 slider-hide">
+                                <div class="portfolio-thumb">
+                                    <img src="./theone_files/LP-2.jpg" alt="Web" title="Web">
+                                </div>
+                                <hgroup>
+                                    <h1 class="text-center">A Night on the Town!</h1>
+                                </hgroup>
+                                <p>
+                                    </p><p>"The Eiffel Tower? A private island? Or on a private yacht?  The only limitation is your own imagination." </p>
+                                <p></p>
+                            </article>
+                            <article class="l-project-item3 slider-hide">
+                                <div class="portfolio-thumb">
+                                    <img src="./theone_files/LP-3.jpg" alt="Web" title="Web">
+                                </div>
+                                <hgroup>
+                                    <h1 class="text-center">Guest Services As a Gift...</h1>
+                                </hgroup>
+                                <p>
+                                    </p><p>"Give the gift of The One. For a limited time, you can extend the benefits of membership to someone special. Ask us about our Gift Services Program."</p>
+                                <p></p>
+                            </article>                
+<!--latest project end-->
+
+<!--Team Start-->
+<section class="content-section team-section" id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <hgroup class="heading1">
+          <h1>Our Team</h1>
+          <div class="headingUline"></div>
+          <h3>We Make Your Experiences Possible</h3>
+        </hgroup>
+        <div class="row">
+          <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center team-1" style="-webkit-transform: scale(1); opacity: 1;">
+            <figure class="figure-hover-overlay"> <img src="./theone_files/img1.jpg" alt="" title="">
+              <div class="item-overlay"> </div>
+            <figcaption>
+            <div class="arrow-social"></div>
+            <hgroup>
+              <h5>ELYCE ANYAF</h5>
+            </hgroup>
+            <p>CEO</p>
+            <footer>
+              <div class="social-icons"> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-facebook"></i> </a> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-gplus"></i> </a> </div>
+            </footer>
+            </figcaption>
+            </figure>
+          </article>
+          <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center team-2" style="-webkit-transform: scale(1); opacity: 1;">
+            <figure class="figure-hover-overlay"> <img src="./theone_files/img2.jpg" alt="" title="">
+              <div class="item-overlay"> </div>
+            <figcaption>
+            <div class="arrow-social"></div>
+            <hgroup>
+              <h5>SAHAL ALARABI</h5>
+            </hgroup>
+            <p>COO</p>
+            <footer>
+              <div class="social-icons"> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-facebook"></i> </a> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-gplus"></i> </a> </div>
+            </footer>
+            </figcaption>
+            </figure>
+          </article>
+          <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center team-3" style="-webkit-transform: scale(1); opacity: 1;">
+            <figure class="figure-hover-overlay"> <img src="./theone_files/img3.jpg" alt="" title="">
+              <div class="item-overlay"> </div>
+            <figcaption>
+            <div class="arrow-social"></div>
+            <hgroup>
+              <h5>Evan Luthra</h5>
+            </hgroup>
+            <p>CTO</p>
+            <footer>
+              <div class="social-icons"> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-facebook"></i> </a> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-gplus"></i> </a> </div>
+            </footer>
+            </figcaption>
+            </figure>
+          </article>
+          <article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center team-4" style="-webkit-transform: scale(1); opacity: 1;">
+            <figure class="figure-hover-overlay"> <img src="./theone_files/img4.jpg" alt="" title="">
+              <div class="item-overlay"> </div>
+            <figcaption>
+            <div class="arrow-social"></div>
+            <hgroup>
+              <h5>Christian</h5>
+            </hgroup>
+            <p>CDO</p>
+            <footer>
+              <div class="social-icons"> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-facebook"></i> </a> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-gplus"></i> </a> </div>
+            </footer>
+            </figcaption>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Team end-->
+
+
+
+      <div class="row">
+        <div class="col-lg-12">
+        <h1>Expert Curators</h1>  
+        <h3>Have a great experience with our curated experiences<br></h3>
+		<img src="./theone_files/the1logowhite.png" class="whitelogo">
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div></div>
+<!--Video Parallax end-->
+
+<!--Services Srart-->
+<section class="content-section servise-section" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      
+       <div class="pull-left slidersecond">
+      	<ul class="cycle-slideshow1" data-cycle-timeout="5000" data-cycle-slides="&gt; li" data-cycle-carousel-fluid="true" data-cycle-speed="4000" style="position: relative;"><li class="cycle-slide cycle-sentinel" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; visibility: hidden; display: block;">
+			<img src="./theone_files/s-1.jpg" style="visibility: hidden;">
+		</li>
+		
+		
+		
+		<li class="cycle-slide cycle-sentinel" style="position: absolute; top: 0px; left: 0px; z-index: 95; opacity: 0; visibility: hidden; display: none;">
+			<img src="./theone_files/s-1.jpg" style="visibility: hidden;">
+		</li><li class="cycle-slide cycle-sentinel" style="position: absolute; top: 0px; left: 0px; z-index: 94; opacity: 0; visibility: hidden; display: none;">
+			<img src="./theone_files/s-1.jpg" style="visibility: hidden;">
+		</li><li class="cycle-slide cycle-sentinel" style="position: absolute; top: 0px; left: 0px; z-index: 100; opacity: 0; visibility: hidden; display: none;">
+			<img src="./theone_files/s-1.jpg" style="visibility: hidden;">
+		</li><li class="cycle-slide cycle-slide-active" style="position: absolute; top: 0px; left: 0px; z-index: 99; opacity: 1; display: block;">
+			<img src="./theone_files/s-1.jpg">
+		</li><li class="cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 97; display: none; opacity: 0;">
+			<img src="./theone_files/s-2.jpg">
+		</li><li class="cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 96; display: none; opacity: 0;">
+			<img src="./theone_files/s-3.jpg">
+		</li></ul><ul id="nav"><li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li class="cycle-pager-active"><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li></ul><ul id="nav"><li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li class="cycle-pager-active"><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li></ul><ul id="nav"><li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li class="cycle-pager-active"><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li></ul><ul id="nav"><li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li><li class="cycle-pager-active"><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#"></a></li></ul>
+       </div>
+        <div class="overflow-hidden">
+          <hgroup>
+            <h1 class="txtupper">Our Services</h1>
+            <h3>We Focus on Exclusive Clientele</h3>
+          </hgroup>
+          <ul>
+            <li>100% Focused on Delivering</li>
+			<li>Exclusive Clientele </li>
+            <li>Point Focused</li>
+            <li>Varied Global Experiences</li>
+            <li>24 hour Concierge</li>
+            <li>Loads of Options</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Services End-->
+
+<!--Skills Start-->
+<section class="content-section skills-section">
+  <div class="container">
+    <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-xs-12 col-lg-3 text-center">
+                <div class="easyPieChart" data-percent="100" data-barcolor="#de4a32" data-trackcolor="#dedede" data-linewidth="4"><span>100%</span>
+                <p>Curated Experiences</p> <canvas height="175" width="175"></canvas><canvas height="175" width="175"></canvas></div></div>
+                <div class="col-xs-12 col-lg-3 text-center">
+                <div class="easyPieChart" data-percent="100" data-barcolor="#de4a32" data-trackcolor="#dedede" data-linewidth="4"><span>100%</span>
+                <p>Anytime <br>Anywhere</p> <canvas height="175" width="175"></canvas><canvas height="175" width="175"></canvas></div></div>
+              <div class="col-xs-12 col-lg-3 text-center">
+                <div class="easyPieChart" data-percent="100" data-barcolor="#de4a32" data-trackcolor="#dedede" data-linewidth="4"><span>100%</span>
+                <p>Bespoke Concierge</p> <canvas height="175" width="175"></canvas><canvas height="175" width="175"></canvas></div></div>
+                <div class="col-xs-12 col-lg-3 text-center">
+                <div class="easyPieChart" data-percent="100" data-barcolor="#de4a32" data-trackcolor="#dedede" data-linewidth="4"><span>100%</span>
+                <p>Expert Options</p> <canvas height="175" width="175"></canvas><canvas height="175" width="175"></canvas></div></div>
+            </div>
+          </div>
+    </div>
+  </div>
+</section>
+<!--Skills End-->
+
+<!--Client Logo Start-->
+<section class="content-section company-logo">
+  <div class="container">
+    <div class="row">
+    	<hgroup class="heading1">
+          <h1>our clients</h1>
+          <div class="headingUline"></div>
+          <h3>WE ARE LOOKING FORWARD TO HEAR FROM YOU</h3>
+        </hgroup>
+    </div>
+  </div>
+</section>
+<!--Client Logo end-->
+
+<!--Testimonial Start-->
+<section class="content-section testimonialss" id="testimonialss">
+  <div class="pattern-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="cycle-slideshow" data-cycle-timeout="2000" data-cycle-slides="&gt; blockquote" data-cycle-prev="#testim-prev" data-cycle-next="#testim-next" style="position: relative;"><blockquote class="cycle-slide cycle-sentinel" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; visibility: hidden; display: block;">
+              <p class="text" style="visibility: hidden;"> <i class="icon-quote-left" style="visibility: hidden;"></i> The One never fails to Impress. Love the Experience.<i class="icon-quote-right" style="visibility: hidden;"></i> </p>
+              
+              <div class="clearfix" style="visibility: hidden;"></div>
+            </blockquote>
+          <blockquote class="cycle-slide cycle-sentinel" style="position: absolute; top: 0px; left: 0px; z-index: 96; opacity: 0; visibility: hidden; display: none;">
+              <p class="text" style="visibility: hidden;"> <i class="icon-quote-left" style="visibility: hidden;"></i> The One never fails to Impress. Love the Experience.<i class="icon-quote-right" style="visibility: hidden;"></i> </p>
+              
+              <div class="clearfix" style="visibility: hidden;"></div>
+            </blockquote><blockquote class="cycle-slide cycle-sentinel" style="position: absolute; top: 0px; left: 0px; z-index: 95; opacity: 0; visibility: hidden; display: none;">
+              <p class="text" style="visibility: hidden;"> <i class="icon-quote-left" style="visibility: hidden;"></i> The One never fails to Impress. Love the Experience.<i class="icon-quote-right" style="visibility: hidden;"></i> </p>
+              
+              <div class="clearfix" style="visibility: hidden;"></div>
+            </blockquote><blockquote class="cycle-slide cycle-sentinel" style="position: absolute; top: 0px; left: 0px; z-index: 100; opacity: 0; visibility: hidden; display: none;">
+              <p class="text" style="visibility: hidden;"> <i class="icon-quote-left" style="visibility: hidden;"></i> The One never fails to Impress. Love the Experience.<i class="icon-quote-right" style="visibility: hidden;"></i> </p>
+              <p class="author" style="visibility: hidden;">Bill Gates</p>
+              <p class="job" style="visibility: hidden;">Billionaire Founder</p>
+              <div class="clearfix" style="visibility: hidden;"></div>
+            </blockquote><blockquote class="cycle-slide cycle-slide-active" style="position: absolute; top: 0px; left: 0px; z-index: 99; opacity: 1; display: block;">
+              <p class="text"> <i class="icon-quote-left"></i> The One never fails to Impress. Love the Experience.<i class="icon-quote-right"></i> </p>
+              <p class="author">Bill Gates</p>
+              <p class="job">Billionaire Founder</p>
+              <div class="clearfix"></div>
+            </blockquote><blockquote class="cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 97; display: none; opacity: 0;"> 
+              <p class="text"> <i class="icon-quote-left"></i> Amazing.<br>Can't get enough of The One.<i class="icon-quote-right"></i> </p>
+              <p class="author">Mark Cuban</p>
+              <p class="job"> Billionaire Playboy</p>
+              <div class="clearfix"></div>
+            </blockquote></div>
+          <div class="testimonialss-slide-nav text-center"> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" id="testim-prev"><i class="icon-left-open-big"></i></a> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" id="testim-next"><i class="icon-right-open-big"></i></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Testimonial End-->
+<!--Call to action Start-->
+<section class="content-section call-to-action" id="callaction">
+	<div class="container">
+    	<div class="row">
+        <span class="responsive-image callimg" style="position: relative; bottom: 0px;"><img src="./theone_files/c-2-a.png" alt="img"> </span>
+        </div>
+    </div>
+    <div class="arrow"></div>
+</section>
+        <h2 class="text-center"> By Invitation Only... We Are The One. </h2>
+      
+    </div>
+  
+
+<!--Call to action end-->
+
+<!--Contact Start-->
+<section class="content-section contact-section" id="contact">
+  <div class="container">
+    <div class="row">
+        <hgroup class="heading1">
+          <h1>contact us</h1>
+          <div class="headingUline"></div>
+          <h3>WE ARE LOOKING FORWARD TO HEAR FROM YOU</h3>
+        </hgroup>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <hgroup class="col-sm-offset-3">
+          <h3>Send us a message</h3>
+        </hgroup>
+        <form class="form-horizontal" role="form" id="contact_form" action="file:///Users/fanyayoung/Desktop/contact.php" novalidate="novalidate">
+          <div class="form-group">
+            <label for="inputName" class="col-sm-3 control-label"> Name<span class="req">*</span> </label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-lg" id="inputName" name="firstname" required="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail" class="col-sm-3 control-label"> Email<span class="req">*</span> </label>
+            <div class="col-sm-9">
+              <input type="email" class="form-control input-lg" id="inputEmail" name="email" required="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputTitle" class="col-sm-3 control-label"> Title<span class="req"></span> </label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-lg" id="inputTitle" name="title">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputMessage" class="col-sm-3 control-label"> Message<span class="req">*</span> </label>
+            <div class="col-sm-9">
+              <textarea class="form-control" id="inputMessage" name="message" rows="9" required=""></textarea>
+              <div id="email_message" style="color: red; padding-top: 15px;"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-9">
+              <button type="submit" class="btn btn-default btn-lg">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
+        <hgroup>
+          <h3>Contact Fanya Young</h3>
+        </hgroup>
+        <p> <i class="icon-location-5"></i> Offices: San Francisco, California &amp; New York, New York United States </p>
+        <p> <i class="icon-mobile"></i> Phone: 415-812-6282 </p>
+        <p> <i class="icon-email"></i> Email: <a href="file:///Users/fanyayoung/Desktop/index.html">concierge@TheOne.co</a> </p>
+        <hgroup>
+          <h3>OUR OFFICE</h3>
+        </hgroup>
+        <br>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Contact end-->
+<!--Footer Start-->
+<div class="footerpadding"></div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+      	<img src="./theone_files/the1logowhite.png" class="whitelogo">
+		 <div class="social-icons"> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-facebook"></i> </a> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-twitter"></i> </a> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-gplus"></i> </a> <a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#" target="_blank"> <i class="icon-linkedin"></i> </a> </div>
+        <nav class="footer-navigation">
+          <ul class="nav">
+            <li><a href="file:///Users/fanyayoung/Desktop/index.html">Home</a></li>
+            <li><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#about">About</a></li>
+            <li><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#team">Team</a></li>
+            <li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#services">Services</a></li>
+            <li class=""><a href="file:///Users/fanyayoung/Desktop/FYoung%20(1)-1.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">Copyright © 2015 Fanya Young and The One.  All rights reserved </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--Footer end-->
+
+
+
+<!-- Bootstrap core JavaScrdipt
+
+================================================== --> 
+
+<!-- Placed at the end of the document so the pages load faster --> 
+
+<script src="./theone_files/jquery.easing.1.3.min.js"></script> 
+<script src="./theone_files/transition.js"></script> 
+<script src="./theone_files/alert.js"></script> 
+<script src="./theone_files/modal.js"></script> 
+
+<!--<script src="lib/bootstrap/js/dropdown.js"></script>--> 
+
+<script src="./theone_files/bootstrap.min.js"></script> 
+<script src="./theone_files/twitter-bootstrap-hover-dropdown.js"></script> 
+<script src="./theone_files/scrollspy.js"></script> 
+<script src="./theone_files/affix.js"></script> 
+<script src="./theone_files/tab.js"></script> 
+<script src="./theone_files/tooltip.js"></script> 
+<script src="./theone_files/popover1.js"></script> 
+<script src="./theone_files/button.js"></script> 
+<script src="./theone_files/collapse.js"></script> 
+<script src="./theone_files/jquery.isotope.min.js"></script> 
+<script src="./theone_files/jquery.lazy.js"></script> 
+<script src="./theone_files/jquery.parallax-1.1.3.js"></script> 
+<script src="./theone_files/custom-script.js"></script> 
+
+<!--   <script src="js/jquery.queryloader2.js"></script> 
+--><script src="./theone_files/jquery.easypiechart.js"></script> 
+<!--<script src="js/jquery.validate.js"></script>-->
+<!-- JS youtube video -->
+<script src="./theone_files/jquery.mb.YTPlayer.js"></script>
+<script src="./theone_files/device.min.js"></script> 
+<script src="./theone_files/bgvideo-youtube-init.js"></script> 
+<script src="./theone_files/jquery.sequence.js"></script>
+<script src="./theone_files/sequencejs.js"></script>
+
+</body></html>

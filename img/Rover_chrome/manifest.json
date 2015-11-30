@@ -1,0 +1,1 @@
+{"name":"Fanya.biz","manifest_version":2,"description":"Portfolio Page","version":"1.0","icons": {"128":"chrome-icon.png","16":"chrome-icon16.png"},"app": {"background": { "scripts": ["background.js"]}}}

@@ -1,0 +1,136 @@
+ <body>
+    <!-- Navigation
+    ==========================================-->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Fanya Young</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#tf-home" class="page-scroll">The Challenge</a></li>
+            <li><a href="#tf-about" class="page-scroll">Analytics & Insights</a></li>
+            <li><a href="#tf-team" class="page-scroll">Persona Development</a></li>
+            <li><a href="#tf-services" class="page-scroll">User Maps</a></li>
+            <li><a href="#tf-testimonials" class="page-scroll">Iterations</a></li>
+            <li><a href="#tf-contact" class="page-scroll">Prototype</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Home Page
+    ==========================================-->
+    <div id="tf-home" class="text-center">
+        <div class="overlay">
+            <div class="content">
+                <h1>Transferpants. <strong><span class="color">A Case Study.</span></strong></h1>
+                <p class="lead">The Challenge: 
+
+How to increase sales for a small e-commerce website? We began by asking customers about
+</strong> their experience with TransfPants.</strong></p>
+                <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Analytics & Insights
+    ==========================================-->
+    <div id="tf-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/01a.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <h4>Analytics & Insights</h4>
+                            <h2>User Data was gathered with </strong></h2>
+                            <hr>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+                        <ul class="about-list">
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Surveys</strong> - <em>Helped to identify demographics of users and whether they were a primary user (immobile) or a secondary user (a caregiver).</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Questionnaires</strong> - <em>Perfect for getting consenus of user attitudes about the website and product.</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Interviews</strong> - <em>Obtained rich compelling narratives about personalized experiences.</em>
+                            </li>
+                        </ul>
+                    </div>
+    </div>
+
+    <!-- Analytics & Insights
+    ==========================================-->
+    <div id="tf-team" class="text-center">
+        <div class="overlay">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Insights & <strong>Analytics</strong></h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                </div>
+
+                <div id="team" class="owl-carousel owl-theme row">
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>The Data Revealed</h3>
+                                <p>Two Major Issues</p>
+                                <p>for Customers.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Size Selection </h3>
+                                <p>Only 36%</p>
+                                <p>Of Customers Selected Pants that Fit; 64% Ordered Pants that Did Not Fit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Customers Liked </h3>
+                                <p>the Website</p>
+                                <p>Because it was Easy to Use and Uncomplicated.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Size Selection</h3>
+                                <p>Only 36%</p>
+                                <p>Of Customers Selected the Correct Size that Fit.</p>
+                            </div>
+                        </div>
+                    </div>
+    </div>
